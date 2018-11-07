@@ -23,5 +23,5 @@ spec:
             image: hub.baidubce.com/kun/knative-nodejs-helloworld:latest 
             imagePullPolicy: Always
             env:
-            - name: SIMPLE_MSG
-              value: "Hello sample app!"
+            - name: TARGET
+              value: "sample app!"
